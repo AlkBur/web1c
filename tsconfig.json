@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "target":  "es6",
+    "rootDir": "client/ts/",
+    "sourceMap":  false,
+    "outDir": "server/static/js/"
+  }
+}
