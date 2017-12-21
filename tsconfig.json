@@ -7,6 +7,6 @@
     "target":  "es6",
     "rootDir": "client/ts/",
     "sourceMap":  false,
-    "outDir": "server/static/js/"
+    "outDir": "server/public/js/"
   }
 }

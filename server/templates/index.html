@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ru" spellcheck="true">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Web 1C</title>
+    <link rel="shortcut icon" href="/img/favicon.ico">
+</head>
+<body>
+    Выберите базу для запуска:
+    {{range $name, $value := .bases }}
+        <br><a href="{{ $name }}">{{ $value }}</a>
+    {{ end }}
+</body>
+</html>
