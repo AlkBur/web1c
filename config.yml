@@ -1,0 +1,10 @@
+debug: true
+addr: ':8080'
+
+bases:
+  - path: 'D:\1C\1Cv77\Базовая УТ\DemoDB'
+    name: 'УТ'
+    url: '/'
+  - path: 'D:\1C\1Cv77\Test'
+    name: 'Test'
+    url: '/test'
